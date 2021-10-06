@@ -4,7 +4,7 @@ function header() {
     return (
       <div className="header">
           <h1>NeShaunda A. Edmonds</h1>
-          <h3>At Your Service</h3>
+          <h3>Orchid Legal Services</h3>
       </div>
     );
 }
