@@ -14,3 +14,8 @@ li{
     display: inline-block;
     padding: 0 20px;
 }
+
+li:hover{
+    background-color: cornsilk;
+    cursor: pointer;
+}

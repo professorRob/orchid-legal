@@ -29,7 +29,8 @@
 $themes: (
   theme-banana: yellow,
   theme-blueberry: purple,
-  theme-cherry: red
+  theme-cherry: red,
+  theme-briyah: rgb(226, 96, 209)
 ) !default;
 
 @each $theme, $color in $themes {
