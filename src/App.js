@@ -1,11 +1,13 @@
 import Header from './Header.js';
 import MainImg from './MainImg.js';
-import './App.css';
+import Navbar from './Navbar.js';
+import './ColorScheme.scss';
 
 function App() {
   return (
-    <div className="section">
+    <div>
       <Header />
+      <Navbar />
       <MainImg />
     </div>
   );

@@ -1,0 +1,37 @@
+@mixin theme($name, $color) {
+  $primary: $color;
+  $secondary: lighten(adjust-hue($color, 20), 10%);
+
+  .#{$name} {
+    .element {
+      color: $primary;
+    }
+
+    .other-element {
+      background: $secondary;
+    }
+  }
+
+  [data-theme='#{$name}'] {
+    background: $color;
+    color: darken($color, 20%);
+/*     &:hover {
+      background: darken($color, 10%);
+    } */
+    
+/*     &[disabled] {
+      background: desaturate($color, 40%);
+    } */
+  }
+  
+}
+
+$themes: (
+  theme-banana: yellow,
+  theme-blueberry: purple,
+  theme-cherry: red
+) !default;
+
+@each $theme, $color in $themes {
+  @include theme($theme, $color);
+}
