@@ -1,5 +1,4 @@
-import React from 'react'
-import Navbar from '../../components/Navbar/Navbar.js';
+import React from 'react';
 
 function Footer() {
     return (
