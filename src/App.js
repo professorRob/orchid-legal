@@ -11,6 +11,7 @@ function App() {
       <Profile />
       <Banner />
       <Footer />
+      
     </div>
   );
 }
