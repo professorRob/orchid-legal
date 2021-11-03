@@ -1,14 +1,17 @@
-import Header from './Header.js';
-import MainImg from './MainImg.js';
-import Navbar from './Navbar.js';
-import './ColorScheme.scss';
+import Navbar from './components/Navbar/Navbar.js';
+import Profile from './components/Profile/Profile.js';
+import Banner from './components/Banner/Banner.js';
+import Footer from './components/Footer/Footer.js';
+import './assets/ColorScheme.scss';
 
 function App() {
   return (
     <div>
-      <Header />
       <Navbar />
-      <MainImg />
+      <Profile />
+      <Banner />
+      <hr />
+      <Footer />
     </div>
   );
 }

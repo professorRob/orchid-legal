@@ -1,0 +1,8 @@
+.profileBox{
+    border: 2px solid red;
+    float: left;
+    clear: left;
+    width: 20%;
+    height: 20em;
+    margin-top: 5em;
+}
